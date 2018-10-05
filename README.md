@@ -1,7 +1,11 @@
 ToBeOrNotToBe
 ==============================
 
-kaggle shakespeare competition/ project for 731
+The idea behind this repository is to predict what Shakespeare player said a given line using one or more classification models. For this assignment, I utilized a random forest model as the cornerstone of this classification engine. 
+
+The results of this classifier seem to indicate a potential error in data splitting for training vs testing, since both the training sets, testing set, and verification set all have the same classification rate. This could be due to a misunderstanding of how seeding a random sample from a dataset actually works. In the future, I will need to investigate different ways of splitting data up. 
+
+Below is the cookiecutter project structure
 
 Project Organization
 ------------
